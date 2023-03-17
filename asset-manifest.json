@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/BehdadTouring/static/css/main.443f29c0.css",
+    "main.js": "/BehdadTouring/static/js/main.2ece0d3d.js",
+    "static/media/pexels-craig-adderley-1563356.jpg": "/BehdadTouring/static/media/pexels-craig-adderley-1563356.f14851a60477a51b95b2.jpg",
+    "static/media/10880195.jpg": "/BehdadTouring/static/media/10880195.90d80f49f5397e1b0d7b.jpg",
+    "static/media/pexels-luis-dalvan-1770809.jpg": "/BehdadTouring/static/media/pexels-luis-dalvan-1770809.d316f74bb7824070f8be.jpg",
+    "static/media/pexels-kasra-askari-12877823.jpg": "/BehdadTouring/static/media/pexels-kasra-askari-12877823.bf4c55f2b37b4959dc5c.jpg",
+    "static/media/pexels-luis-del-río-15286.jpg": "/BehdadTouring/static/media/pexels-luis-del-río-15286.add92fb5926144c9a72b.jpg",
+    "static/media/people-2557483.jpg": "/BehdadTouring/static/media/people-2557483.7b9862632457dbf9c2f6.jpg",
+    "static/media/Untitled.jpg": "/BehdadTouring/static/media/Untitled.fd353e815b422373d605.jpg",
+    "static/media/IRANSans.ttf": "/BehdadTouring/static/media/IRANSans.623768ac2bdc3c1f78df.ttf",
+    "index.html": "/BehdadTouring/index.html",
+    "main.443f29c0.css.map": "/BehdadTouring/static/css/main.443f29c0.css.map",
+    "main.2ece0d3d.js.map": "/BehdadTouring/static/js/main.2ece0d3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.443f29c0.css",
+    "static/js/main.2ece0d3d.js"
+  ]
+}
