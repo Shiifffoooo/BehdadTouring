@@ -1,0 +1,132 @@
+@font-face {
+  font-family: IRANSans;
+  src: url(../../public/fonts/IRANSans/IRANSans.ttf);
+}
+:root {
+  --vanilla-color: #f3e5ab;
+  --green-gray-color: #2b505f;
+}
+.text-vanilla {
+  color: var(--vanilla-color);
+}
+.text-green-gray {
+  color: var(--green-gray-color);
+}
+.bg-vanilla {
+  background-color: var(--vanilla-color);
+}
+.bg-green-gray {
+  background-color: var(--green-gray-color);
+}
+.text-inherit {
+  color: inherit !important;
+}
+.word-break {
+  word-break: break-word;
+}
+.fs-7 {
+  font-size: 0.8rem !important;
+}
+
+.translate-top {
+  transform: translateY(-4rem);
+}
+input,
+#useremail,
+#telnumber,
+#form2Example18 {
+  direction: rtl;
+}
+.truncate-overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+body,
+* {
+  font-family: IRANSans;
+}
+.body {
+  background-color: var(--vanilla-color);
+}
+h2,
+span {
+  font-family: IRANSans, "Courier New", Courier, monospace;
+}
+a {
+  transition: all ease-in-out 200ms;
+}
+a:hover {
+  color: hsl(350, 98%, 52%);
+}
+a:focus {
+  color: blue;
+}
+/* <!-- breadcrumb --> */
+.breadcrumb a {
+  color: var(--vanilla-color);
+  transition: all ease-in-out 250ms;
+}
+.breadcrumb a:hover {
+  color: #fff;
+}
+
+/* <!-- popularity --> */
+.tour-popularity {
+  word-spacing: -5px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+}
+.tour-popularity .d-flex > img {
+  width: 20px;
+  height: 20px;
+}
+.tour-popularity .d-flex > img:last-child {
+  margin-left: 0.3rem;
+}
+/* <!-- header --> */
+
+/* <!-- landing --> */
+
+.btn-costume {
+  border: 2px solid var(--vanilla-color);
+  font-family: cursive;
+  color: var(--vanilla-color);
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 3px;
+  transition: all 300ms;
+}
+.btn-costume svg {
+  margin-left: 0.3rem;
+}
+.btn-costume:hover {
+  color: var(--green-gray-color);
+  background-color: var(--vanilla-color);
+}
+.btn-costume-dark {
+  color: var(--green-gray-color);
+  border-color: var(--green-gray-color);
+}
+.btn-costume-dark:hover {
+  color: var(--vanilla-color);
+  background-color: var(--green-gray-color);
+}
+
+/* <!-- Media Query --> */
+@media (min-width: 438px) {
+}
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1199px) {
+}
+@media (min-width: 1399px) {
+}

@@ -1,0 +1,74 @@
+.main-tour__header {
+  background-image: url("../../../public/images/pexels-craig-adderley-1563356.jpg");
+  height: 25vh;
+  background-position: center;
+  position: relative;
+}
+
+#price-form {
+  transform: unset;
+}
+.tour_images-sweeping {
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+}
+.tour_images-sweeping img {
+  height: -webkit-fill-available;
+}
+.tour-content {
+  margin-top: 5rem;
+}
+.tour-content > div.row {
+  border: 2px solid var(--green-gray-color);
+  transform: translateY(-2px);
+  margin-bottom: -2px;
+}
+.tour-content_link .active {
+  background-color: var(--vanilla-color);
+  color: var(--green-gray-color) !important;
+  transition: all ease-in-out 250ms;
+}
+
+
+
+.relevant-tours > p {
+  position: relative;
+}
+.relevant-tours > p::before {
+  content: "";
+  position: absolute;
+  width: 53px;
+  height: 2px;
+  background-color: var(--green-gray-color);
+  bottom: -5px;
+}
+
+.shadow > .tour-img img {
+  width: 160px;
+  height: -webkit-fill-available;
+}
+
+
+.shadow > .tour-img img {
+  width: 100%;
+  height: 14.5rem;
+}
+
+.tour-img {
+  transition: transform ease-in-out 200ms;
+}
+.tour-img img {
+  height: 400px;
+  width: 100%;
+}
+
+.shadow:hover .tour-img {
+  transform: scale(1.06);
+}
+
+@media (min-width: 768px) {
+  #price-form {
+    transform: translateY(-40px);
+  }
+}

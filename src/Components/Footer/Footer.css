@@ -1,0 +1,84 @@
+/* <!-- footer --> */
+
+#footer {
+  position: relative;
+  top: -16rem;
+  z-index: 1;
+  background-color: var(--vanilla-color);
+  margin-bottom: -25rem;
+}
+#footer-links p a {
+  transition: all ease-in-out 200ms;
+}
+#footer-links p:hover a {
+  color: hsl(350, 98%, 52%);
+}
+#footer-links p a:focus {
+  color: #fff;
+}
+
+.jojo-icon {
+  position: absolute;
+  background-color: var(--vanilla-color);
+  min-height: 25rem;
+  max-height: 50rem;
+  overflow: hidden;
+  z-index: -1;
+}
+.jojo-icon svg {
+}
+.social-wrapper {
+  color: var(--green-gray-color);
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.social-wrapper a:hover svg {
+  transform: translateY(-5px) scale(1.04);
+  color: #fff;
+}
+.social-wrapper a svg {
+  color: var(--green-gray-color);
+  font-size: 2rem;
+  margin-left: 1rem;
+  transition: all ease-in-out 250ms;
+}
+
+/* <!-- Media Query --> */
+@media (min-width: 438px) {
+  .social-wrapper {
+    padding-top: 4rem;
+  }
+  .social-wrapper svg {
+      margin-left: 1rem;
+    }
+}
+@media (min-width: 576px) {
+  .social-wrapper {
+    padding-top: 7rem;
+  }
+}
+@media (min-width: 768px) {
+
+  .social-wrapper {
+    padding-top: 10rem;
+  }
+}
+@media (min-width: 992px) {
+
+  .social-wrapper {
+    padding-top: 12rem;
+  }
+}
+@media (min-width: 1199px) {
+
+  .social-wrapper {
+    padding-top: 15rem;
+  }
+}
+@media (min-width: 1399px) {
+
+  .social-wrapper {
+    padding-top: 16rem;
+  }
+}

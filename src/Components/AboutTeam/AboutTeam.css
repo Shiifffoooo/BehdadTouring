@@ -1,0 +1,133 @@
+/* <!-- section about team --> */
+#about-team {
+    position: relative;
+    top: -16rem;
+    width: 100%;
+    z-index: 5;
+  }
+  #about-team::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 45rem;
+    clip-path: polygon(
+      31% 15%,
+      43% 0,
+      73% 36%,
+      100% 17%,
+      100% 100%,
+      0 100%,
+      0 29%,
+      22% 3%
+    );
+    background-color: var(--vanilla-color);
+  
+    z-index: -1;
+  }
+  
+  #about-team::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    min-height: -webkit-fill-available;
+    background-color: var(--vanilla-color);
+    z-index: -1;
+  }
+  
+  .food-plate-wrapper {
+    transform: rotateZ(75deg);
+  }
+  .food-plate-wrapper img {
+    height: 180px;
+    inline-size: fit-content;
+  }
+  .attention-arrow {
+    transform: rotateZ(45deg);
+    position: absolute;
+    left: 1rem;
+    top: 10rem;
+    width: fit-content;
+    z-index: -1;
+  }
+  .attention-arrow svg {
+    width: 75px;
+    height: 75px;
+  }
+  .recent-tour {
+    background-color: var(--vanilla-color);
+    height: 100%;
+  }
+  .recent-tour img {
+    position: relative;
+    right: -2.8rem;
+    width: 170px;
+    height: 187px;
+  }
+  .recent-tour-info {
+  }
+  
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.swiper-slide img {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: -webkit-fill-available;
+}
+.overlay-img{
+  background: hsl(197deg 38% 27% / 40%);
+
+  border: 1px solid #fff;
+  border-bottom: 0;
+  left: 50%;
+  width: 90%;
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  transform: translate(-50%, 0%);
+  padding: 10px;
+  transition: all ease-in 200ms;
+}
+
+.overlay-img:nth-child(odd){
+  background: hsla(48, 75%, 81%, 0.39) !important;
+}
+
+@media (min-width: 768px) {
+ 
+}
+
+@media (min-width: 769px) {
+  .overlay-img{
+    top: 100%;
+  }
+  .swiper-slide img:hover + .overlay-img,.overlay-img:hover
+  {
+    top: 30%;
+  }
+  .food-plate-wrapper img {
+    height: 250px;
+  }
+  .attention-arrow {
+    left: 2.2rem;
+    top: 10rem;
+  }
+  .attention-arrow svg {
+    width: 150px;
+    height: 150px;
+  }
+ 
+}

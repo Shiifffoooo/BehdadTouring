@@ -1,0 +1,18 @@
+#slogan-header {
+    background-image: url("../../../public/images/10880195.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+.slogan-title {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #fff;
+  }
+  

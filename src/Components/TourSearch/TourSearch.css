@@ -1,0 +1,23 @@
+#sorting-tour-section {
+  background-image: url("../../../public/images/pexels-craig-adderley-1563356.jpg");
+  background-size: cover;
+  min-height: 80vh;
+  padding: 5rem 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  color: var(--bs-white);
+}
+#sorting-tour-section > div {
+  backdrop-filter: blur(5px);
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+.sorting-inputs {
+  width: inherit;
+  padding: 0.2rem;
+}
+/*   <== tours section ==> */

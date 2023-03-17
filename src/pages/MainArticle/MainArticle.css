@@ -1,0 +1,17 @@
+.main-tour__header {
+    background-image: url("../../../public/images/pexels-luis-dalvan-1770809.jpg");
+    height: 25vh;
+    background-position: center;
+    position: relative;
+  }
+  .blog-img-wrapper {
+    height: 75vh;
+    width: 100%;
+    text-align: center;
+  }
+  .blog-img-wrapper img {
+      height: inherit;
+  }
+  .main-tour-comment_box{
+      margin-bottom: 1rem;
+    }

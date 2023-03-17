@@ -1,0 +1,105 @@
+.main-tour__header {
+    background-image: url("../../../public/images/Untitled.jpg");
+    height: 25vh;
+    background-position: center;
+    position: relative;
+  }
+  
+  #price-form {
+    transform: unset;
+  }
+  .tour_images-sweeping {
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+  }
+  .tour_images-sweeping img {
+    height: -webkit-fill-available;
+  }
+  .tour-content {
+    margin-top: 5rem;
+  }
+  .tour-content > div.row {
+    border: 2px solid var(--green-gray-color);
+    transform: translateY(-2px);
+    margin-bottom: -2px;
+  }
+  .tour-content_link .active {
+    background-color: var(--vanilla-color);
+    color: var(--green-gray-color) !important;
+    transition: all ease-in-out 250ms;
+  }
+  .iteration-icon {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all ease-in-out 300ms;
+  }
+  
+  .tour-plan_wrapper li:hover .iteration-icon {
+    background-color: transparent !important;
+    border: 1px dashed var(--green-gray-color);
+    color: var(--green-gray-color) !important;
+  }
+  
+  .main-tour-comment_box{
+    margin-bottom: 1rem;
+  }
+  .relevant-tours > p{
+    position: relative;
+  }
+  .relevant-tours > p::before{
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 2px;
+    background-color: var(--green-gray-color);
+    bottom: -5px;
+  }
+  
+  .shadow > .tour-img img {
+    width: 160px;
+    height: -webkit-fill-available;
+  }
+  
+  .tour-popularity {
+    word-spacing: -5px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+  }
+  .tour-popularity .d-flex > img {
+    width: 20px;
+    height: 20px;
+  }
+  .tour-popularity .d-flex > img:last-child {
+    margin-left: 0.3rem;
+  }
+  
+   .shadow > .tour-img img {
+    width: 100%;
+    height: 14.5rem;
+  }
+  
+  .tour-img {
+    transition: transform ease-in-out 200ms;
+  }
+  .tour-img img {
+    height: 400px;
+    width: 100%;
+  }
+  
+  .shadow:hover .tour-img {
+    transform: scale(1.06);
+  }
+  
+  
+  @media (min-width: 768px) {
+    #price-form {
+      transform: translateY(-40px);
+    }
+  }
+  

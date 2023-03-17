@@ -1,0 +1,23 @@
+.main-tour__header {
+    background-image: url("../../../public/images/pexels-luis-del-río-15286.jpg");
+    height: 25vh;
+    background-position: center;
+    position: relative;
+  }
+  .blog-wrapper {
+    border: 1px solid #dee2e6;
+  }
+  .blog-wrapper a img,
+  .blog-wrapper h5 a {
+    transition: all ease-in-out 250ms;
+  }
+  .blog-wrapper a:hover img {
+    transform: scale(1.06);
+  }
+  .blog-wrapper a:hover img {
+    transform: scale(1.06);
+  }
+  .blog-wrapper h5:hover a {
+    color: var(--bs-warning) !important;
+  }
+  

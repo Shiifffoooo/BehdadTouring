@@ -1,0 +1,11 @@
+.main-tour__header {
+  background-image: url("../../../public/images/people-2557483.jpg");
+  height: 25vh;
+  background-position: bottom;
+  position: relative;
+}
+
+.fa-truck-fast{
+  transform: rotateY(180deg) translate(5px,2px);
+
+}
