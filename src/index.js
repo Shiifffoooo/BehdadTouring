@@ -4,14 +4,14 @@ import App from "./App";
 import "reset.css";
 import "bootstrap/dist/css/bootstrap.rtl.min.css";
 import "./styles/style.css"
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/">
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
