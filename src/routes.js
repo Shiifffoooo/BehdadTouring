@@ -17,7 +17,7 @@ import SignIn from "./Components/SignIn/SignIn";
 import UnderConstruction from "./pages/UnderConstruction/UnderConstruction";
 
 let routes = [
-  { path: "*", element: <NotFound /> },
+ 
   { path: "/", element: <Index /> },
   { path: "/contact-me", element: <ContactMe /> },
   { path: "/basket", element: <BuyingBasket /> },
@@ -55,6 +55,7 @@ let routes = [
       { path: ":nameProduct", element: <MainProduct /> },
     ],
   },
+   { path: "*", element: <NotFound /> },
 ];
 
 export default routes;
